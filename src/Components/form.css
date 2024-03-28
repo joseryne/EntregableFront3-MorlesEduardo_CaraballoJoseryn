@@ -1,0 +1,61 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1rem;
+  max-width: 340px;
+  min-width: 280px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #cfcfcf;
+}
+
+.warning,
+.success {
+  color: #0a0a0a;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-top: 0rem;
+}
+
+.warning {
+  color: rgb(236, 47, 47);
+}
+
+form input {
+  padding: 0.5rem;
+  border: 1px solid #ffffff;
+}
+
+form button {
+  font-family: inherit;
+  font-weight: 600;
+  border: none;
+  background-color: #3645a5;
+  color: #fff;
+  transition: background-color 0.3s ease;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 0.7rem 1.5rem;
+}
+
+form button:hover {
+  background-color: #121361;
+}
+
+.dark form {
+  background-color: #363574; /* Cambio al color oscuro */
+  color: #000000; /* Texto en negro */
+}
+
+.dark form input,
+.dark form button {
+  background-color: #8ba1bb; /* Fondo de los inputs y botones */
+  border: 1px solid #8ba1bb; /* Borde de los inputs y botones */
+  color: #ffffff; /* Texto en blanco */
+}
+
+.dark form button:hover {
+  background-color: #0b0f15; /* Cambio de color en el hover */
+}
